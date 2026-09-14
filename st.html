@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIL SERVICE - Sérigraphie et Graphisme</title>
+    <style>
+
+<!--h1 {
+    animation: apparition 2s ease-in-out;
+}
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}-->
+
+h1 {
+    animation: zoom 2s ease-in-out infinite alternate;
+
+    color:red
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+p {
+    animation:alternate 2s ease-in-out infinite alternate;
+}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .services {
+            
+            color: white;
+            padding: 80px 20px;
+            background: #571010;
+        }
+
+        .services h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        .about {
+            padding: 80px 20px;
+        }
+
+        .about h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .about p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .contact-section {
+            padding: 80px 20px;
+            background: #f9f9f9;
+        }
+
+        .contact-section h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .contact-info {
+            padding: 30px;
+            background: white;
+            border-radius: 8px;
+        }
+
+        .contact-info h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        form input,
+        form textarea {
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 16px;
+        }
+
+        form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        footer {
+            background: darkgreen;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                gap: 15px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .contact-content {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">WIL SERVICE</div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil" class="hero">
+        <h1>WIL SERVICE</h1>
+        <p>Votre partenaire en sérigraphie et graphisme</p>
+        <a href="#contact" class="btn">Nous Contacter</a>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>🎨 Sérigraphie</h3>
+                    <p>Impression de qualité supérieure sur tous types de textiles et matériaux. Nous réalisons vos projets avec précision et durabilité.</p>
+                </div>
+
+                <div class="service-card">
+                    <h3>✏️ Design Graphique</h3>
+                    <p>Création de logos, affiches, brochures et identités visuelles. Nous donnons vie à vos idées.</p>
+                </div>
+                <div class="service-card">
+                    <h3>🖼️ Impression Personnalisée</h3>
+                    <p>Personnalisation de vêtements, accessoires et objets promotionnels à votre image.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2>À Propos de Nous</h2>
+            <p>WIL SERVICE est une entreprise spécialisée dans la sérigraphie et le graphisme depuis plusieurs années. Nous offrons des solutions créatives et professionnelles pour tous vos besoins en communication visuelle.</p>
+            <p>Notre équipe passionnée travaille avec dévouement pour transformer vos idées en réalisations exceptionnelles, en utilisant les meilleures techniques et matériaux disponibles.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Nous Contacter</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informations de Contact</h3>
+                    <p><strong>Adresse :</strong> Cotonou/Bénin</p>
+                    <p><strong>Téléphone :</strong> +2290159300508</p>
+                    <p><strong>Email :</strong> dossoumwilfried@gmail.com</p>
+                    <p><strong>Horaires :</strong> Lun - Ven : 9h - 19h</p>
+                </div>
+
+                <form>
+                    <input type="text" placeholder="Votre nom" required>
+                    <input type="email" placeholder="Votre email" required>
+                    <input type="text" placeholder="Sujet">
+                    <textarea placeholder="Votre message" required></textarea>
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; WIL SERVICE - Sérigraphie et Graphisme. Tous droits réservés. <br> Votre satisfaction est notre priorité <br> Cotonou, Abomey-Calavi, <Porto-Novo></Porto-Novo> </p>
+    </footer>
+</body>
+</html>

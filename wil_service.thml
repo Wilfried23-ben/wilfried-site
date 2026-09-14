@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Wil Service - Travaux de ferraillage, levage, agriculture et maraîchage au Bénin.">
+
+    <title>Wil Service | Solutions professionnelles au Bénin</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+        <div class="container nav">
+
+            <a href="#accueil" class="logo">
+                WIL <span>SERVICE</span>
+            </a>
+
+            <button class="menu" aria-label="Ouvrir le menu">
+                ☰
+            </button>
+
+            <nav>
+                <a href="#accueil">Accueil</a>
+                <a href="#apropos">À propos</a>
+                <a href="#services">Services</a>
+                <a href="#realisations">Réalisations</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- ================= ACCUEIL ================= -->
+    <main>
+
+        <section id="accueil" class="hero">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        VOTRE PARTENAIRE DE CONFIANCE AU BÉNIN
+                    </p>
+
+                    <h1>
+                        Des solutions fiables pour vos
+                        <span>projets.</span>
+                    </h1>
+
+                    <p class="lead">
+                        Ferraillage, levage, agriculture et maraîchage :
+                        nous vous accompagnons avec sérieux, efficacité
+                        et professionnalisme.
+                    </p>
+
+                    <div class="actions">
+
+                        <a href="tel:+2290159300508"
+                           class="btn primary">
+                            Nous appeler
+                        </a>
+
+                        <a href="https://wa.me/2290159300508"
+                           class="btn secondary"
+                           target="_blank">
+                            WhatsApp
+                        </a>
+
+                    </div>
+
+                    <p class="zones">
+                        📍 Abomey-Calavi · Cotonou · Porto-Novo
+                        · Interventions au Bénin
+                    </p>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="card-mark">
+                        W
+                    </div>
+
+                    <h2>
+                        WIL SERVICE
+                    </h2>
+
+                    <p>
+                        Professionnalisme · Ponctualité · Qualité
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= À PROPOS ================= -->
+
+        <section id="apropos" class="section">
+
+            <div class="container two-col">
+
+                <div>
+
+                    <p class="eyebrow">
+                        À PROPOS
+                    </p>
+
+                    <h2>
+                        Une entreprise tournée vers
+                        des résultats concrets.
+                    </h2>
+
+                </div>
+
+
+                <div>
+
+                    <p>
+                        Wil Service propose des prestations adaptées
+                        aux besoins des particuliers, professionnels
+                        et porteurs de projets au Bénin.
+                    </p>
+
+                    <p>
+                        Notre objectif est simple : fournir un travail
+                        sérieux, organisé et de qualité, tout en
+                        respectant les besoins et les délais de nos clients.
+                    </p>
+
+
+                    <div class="numbers">
+
+                        <div>
+                            <strong>4+</strong>
+                            <span>Domaines de service</span>
+                        </div>
+
+                        <div>
+                            <strong>3</strong>
+                            <span>Zones principales</span>
+                        </div>
+
+                        <div>
+                            <strong>100%</strong>
+                            <span>Engagement</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section id="services" class="section light">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <p class="eyebrow">
+                        NOS SERVICES
+                    </p>
+
+                    <h2>
+                        Des compétences au service
+                        de vos projets
+                    </h2>
+
+                </div>
+
+
+                <div class="services">
+
+                    <article class="service">
+
+                        <div class="icon">
+                            ⚙
+                        </div>
+
+                        <h3>
+                            Travaux de ferraillage
+                        </h3>
+
+                        <p>
+                            Prestations de ferraillage pour les projets
+                            de construction et ouvrages en béton armé.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service">
+
+                        <div class="icon">
+                            🏗
+                        </div>
+
+                        <h3>
+                            Levage
+                        </h3>
+
+                        <p>
+                            Solutions de levage adaptées aux besoins
+                            de vos chantiers et opérations professionnelles.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service">
+
+                        <div class="icon">
+                            🌱
+                        </div>
+
+                        <h3>
+                            Agriculture
+                        </h3>
+
+                        <p>
+                            Accompagnement dans vos activités et projets
+                            agricoles avec une approche pratique et efficace.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service">
+
+                        <div class="icon">
+                            🥬
+                        </div>
+
+                        <h3>
+                            Maraîchage
+                        </h3>
+
+                        <p>
+                            Services liés aux activités maraîchères
+                            et à la mise en valeur de vos espaces de production.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RÉALISATIONS ================= -->
+
+        <section id="realisations" class="section">
+
+            <div class="container">
+
+                <div class="section-head">
+
+                    <p class="eyebrow">
+                        RÉALISATIONS
+                    </p>
+
+                    <h2>
+                        Quelques exemples de nos activités
+                    </h2>
+
+                    <p>
+                        Cette galerie pourra être remplacée par les
+                        vraies photos de vos chantiers et réalisations.
+                    </p>
+
+                </div>
+
+
+                <div class="gallery">
+
+                    <div class="gallery-item">
+                        <span>Ferraillage</span>
+                    </div>
+
+                    <div class="gallery-item">
+                        <span>Levage</span>
+                    </div>
+
+                    <div class="gallery-item">
+                        <span>Agriculture</span>
+                    </div>
+
+                    <div class="gallery-item">
+                        <span>Maraîchage</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="cta">
+
+            <div class="container cta-inner">
+
+                <div>
+
+                    <p class="eyebrow">
+                        UN PROJET EN VUE ?
+                    </p>
+
+                    <h2>
+                        Parlons de votre besoin.
+                    </h2>
+
+                    <p>
+                        Contactez-nous pour échanger sur votre projet
+                        et vos besoins.
+                    </p>
+
+                </div>
+
+
+                <a href="https://wa.me/2290159300508"
+                   class="btn white"
+                   target="_blank">
+
+                    Écrire sur WhatsApp
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section id="contact" class="section contact">
+
+            <div class="container two-col">
+
+                <div>
+
+                    <p class="eyebrow">
+                        CONTACT
+                    </p>
+
+                    <h2>
+                        Nous sommes à votre écoute.
+                    </h2>
+
+                    <p>
+                        Pour toute demande d'information ou de prestation,
+                        contactez-nous directement.
+                    </p>
+
+                </div>
+
+
+                <div class="contact-box">
+
+                    <p>
+                        <strong>Téléphone</strong><br>
+
+                        <a href="tel:+2290159300508">
+                            +229 01 59 30 05 08
+                        </a>
+                    </p>
+
+
+                    <p>
+                        <strong>Téléphone</strong><br>
+
+                        <a href="tel:+2290148222909">
+                            +229 01 48 22 29 09
+                        </a>
+                    </p>
+
+
+                    <p>
+                        <strong>Zones</strong><br>
+
+                        Abomey-Calavi · Cotonou · Porto-Novo
+                    </p>
+
+
+                    <a href="https://wa.me/2290159300508"
+                       class="btn primary full"
+                       target="_blank">
+
+                        Contacter sur WhatsApp
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer-inner">
+
+            <div>
+
+                <strong>
+                    WIL SERVICE
+                </strong>
+
+                <br>
+
+                <small>
+                    Des solutions fiables pour vos projets.
+                </small>
+
+            </div>
+
+
+            <div>
+                © <span id="year"></span>
+                Wil Service. Tous droits réservés.
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
